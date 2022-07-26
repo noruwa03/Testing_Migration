@@ -1,0 +1,148 @@
+@media screen and (max-width: 768px) {
+  .logo-image {
+    display: block;
+
+    position: fixed;
+    top: 1.8%;
+    left: 3%;
+
+    img {
+      width: 8rem;
+    }
+  }
+
+  .detail-page {
+    padding: 4rem 0;
+
+    .detail-card {
+      width: 90%;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+
+      .row-item {
+        @include flexItem(row, flex-start);
+        align-items: center;
+
+        h2 {
+          margin-right: 1rem;
+        }
+
+        .value {
+          font-size: 1em;
+
+          .items {
+            font-size: 0.99em;
+          }
+
+          .budget {
+            font-size: 0.99em;
+          }
+        }
+      }
+    }
+  }
+
+  .card-table {
+    .custom-container {
+      width: 90%;
+      margin: 0.1rem auto 0rem auto;
+    }
+
+    .header,
+    .sub-text {
+      font-size: 1.1em;
+      font-family: $dmSans;
+    }
+
+    height: 100%;
+    font-size: 0.79em;
+    padding-top: 1rem;
+
+    .header-container {
+      width: 95%;
+
+      padding: 1.5rem 1rem;
+
+      .text-lead {
+        padding-bottom: 1.2rem;
+        font-weight: bold;
+        font-size: 1.3em;
+        font-family: $dmSans;
+      }
+
+      .header {
+        color: #999;
+      }
+
+      .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+
+        .col-1 {
+          width: 25%;
+        }
+
+        .col-2 {
+          display: block;
+          width: 25%;
+        }
+
+        .col-3 {
+          display: none;
+        }
+
+        .col-4 {
+          display: none;
+        }
+
+        .col-5 {
+          display: block;
+          width: 30%;
+        }
+      }
+    }
+
+    .sub-container {
+      width: 95%;
+
+      padding: 1.7rem 1rem;
+
+      .text-lead {
+        padding-bottom: 1rem;
+        font-weight: bold;
+        font-size: 1.3em;
+      }
+
+      .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+
+        .col-1 {
+          width: 25%;
+        }
+
+        .col-2 {
+          display: block;
+          width: 25%;
+        }
+
+        .col-3 {
+          display: none;
+        }
+
+        .col-4 {
+          display: none;
+        }
+
+        .col-5 {
+          display: block;
+          width: 30%;
+        }
+      }
+    }
+  }
+}

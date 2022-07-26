@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.5"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.3.0",
+    "dotenv": "^16.0.1",
+    "firebase": "^9.9.0",
+    "pinia": "^2.0.16",
+    "sweetalert2": "^11.4.23"
+  }
+}
