@@ -37,13 +37,13 @@
           >
             <div class="col-lg-4 col-sm-4 col-6 my-3 footer-anchor-link">
               <h5>Explore</h5>
-              <a href="https://ecolabz-dev.netlify.app/#services">What we do</a>
+              <a href="https://ecolabz.io/#services">What we do</a>
 
               <a href="mailto:contact@ecolabz.io">Careers</a>
             </div>
             <div class="col-lg-4 col-sm-4 col-6 my-3 footer-anchor-link">
               <h5>About</h5>
-              <a href="https://ecolabz-dev.netlify.app/#about-us">About Us</a>
+              <a href="https://ecolabz.io/#about-us">About Us</a>
 
               <NuxtLink class="" to="/contact">Get A Quote</NuxtLink>
             </div>

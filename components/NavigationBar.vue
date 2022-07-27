@@ -26,15 +26,11 @@
 
         <ul class="nav-item-list">
           <li @click="removeSidebar" class="nav-item">
-            <a class="nav-link" href="https://ecolabz-dev.netlify.app/#about-us"
-              >About</a
-            >
+            <a class="nav-link" href="https://ecolabz.io/#about-us">About</a>
           </li>
 
           <li @click="removeSidebar" class="nav-item">
-            <a class="nav-link" href="https://ecolabz-dev.netlify.app/#services"
-              >Services</a
-            >
+            <a class="nav-link" href="https://ecolabz.io/#services">Services</a>
           </li>
           <li @click="comingSoon" class="nav-item">
             <NuxtLink class="nav-link" to="">Portfolio</NuxtLink>
@@ -92,7 +88,6 @@ const removeSidebar = () => {
 </script>
 
 <style>
-
 </style>
 
 
