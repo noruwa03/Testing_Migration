@@ -35,8 +35,8 @@
           <li @click="comingSoon" class="nav-item">
             <NuxtLink class="nav-link" to="">Portfolio</NuxtLink>
           </li>
-          <li @click="comingSoon" class="nav-item">
-            <NuxtLink class="nav-link" to="">Jobs</NuxtLink>
+          <li  class="nav-item">
+            <NuxtLink @click="removeSidebar" class="nav-link" to="https://jobs.ecolabz.io" target="_blank" rel="noopener">Jobs</NuxtLink>
           </li>
           <li @click="removeSidebar" class="nav-item">
             <NuxtLink class="nav-link" to="/contact">Contact</NuxtLink>
