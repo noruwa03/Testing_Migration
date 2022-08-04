@@ -96,7 +96,7 @@
     }
 
     .approach-card {
-      height: 18rem;
+      height: 24.5rem;
 
       h5 {
         font-size: 1.3em;
@@ -105,6 +105,20 @@
       p {
         font-size: 1em;
       }
+    }
+  }
+
+  .our-team {
+    padding: 3rem 0;
+
+    h2 {
+      font-size: 1.5em;
+    }
+
+    p {
+      width: 93%;
+
+      font-size: 1em;
     }
   }
 

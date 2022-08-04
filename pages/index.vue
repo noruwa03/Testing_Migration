@@ -232,7 +232,7 @@
     <!-- Our Approach -->
     <div id="our-approach" class="our-approach">
       <div class="heading text-center mb-4">
-        <h4>Our approach to delivering great services</h4>
+        <h4>We follow a methodical approach to build innovative solutions</h4>
       </div>
       <div class="container-lg">
         <div
@@ -244,39 +244,73 @@
         >
           <div class="col-lg-4 col-sm-6 col-12">
             <div class="approach-card my-2">
-              <h5 class="text-center">In-depth Research & Development:</h5>
-              <p class="text-center">
-                Our approach to design and product development involves a
-                thorough research of the market, the users, stakeholders, trends
-                and future expectation that will result in useable product.
-              </p>
+              <div class="text-center">
+                <img
+                  src="@/assets/icons/discovery_planning.svg"
+                  alt="Discovery And Planning"
+                />
+                <h5>Discovery And Planning</h5>
+                <p>
+                  Our approach to design and product development starts with
+                  validationg the idea, getting information on the desired
+                  specifications product, enhancing our understanding of what
+                  the client's wants so we can make user-led product decisions
+                  and address customer needs.
+                </p>
+              </div>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6 col-12">
             <div class="approach-card my-2">
-              <h5 class="text-center">Intuitive Design</h5>
-              <p class="text-center">
-                Our products are designed to be accessible, intuitive, and
-                usable. Sophisticated enough for tech savvy users and simple for
-                casual users.
-              </p>
+              <div class="text-center">
+                <img
+                  src="@/assets/icons/design_development.svg"
+                  alt="Design And Development"
+                />
+                <h5>Design And Development</h5>
+                <p>
+                  Our design team will work alongside our product engineering
+                  team or become part of your team to develop beautiful concepts
+                  that will be tailored to your requirements.
+                </p>
+              </div>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6 col-12">
             <div class="approach-card my-2">
-              <h5 class="text-center">Excellent Services</h5>
-              <p class="text-center">
-                We believe that great products speaks for themselves and help
-                you reach your business goals faster. On this, rest our mission
-                of delivering highest quality service. We research, test run,
-                reiterate, run QA and review before delivering your projects.
-              </p>
+              <div class="text-center">
+                <img
+                  src="@/assets/icons/testing.svg"
+                  alt="Testing And Launch Support"
+                />
+                <h5>Testing And Launch Support</h5>
+                <p>
+                  We deploy and provide high-informing testing solutions for
+                  various research needs that will help our clients understand
+                  consumer needs.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
     <!-- End of Our Approach -->
+
+    <!-- Our Team -->
+    <div class="our-team">
+      <div class="heading text-center mb-4">
+        <h2>Our Team</h2>
+        <p>
+          We have got a group of talented and committed individuals with the
+          desire to exceed what we promised in time with needed quality and
+          budget. Whether we work directly on your product or as an Extended
+          Team, we adopt proven methodologies, business domain experience and
+          technology expertise in our implementation.
+        </p>
+      </div>
+    </div>
+    <!-- End of Our Our Team -->
 
     <Footer />
   </div>

@@ -315,6 +315,37 @@ header .container .anchor-link {
           box-shadow: 0px 0px 25px rgba(209, 209, 209, 0.3);
   border-radius: 0.6rem;
   margin: 0.9rem 0;
+  display: block;
+  position: relative;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.services .container-lg .service-card:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -16px;
+  right: -16px;
+  background: #fff;
+  height: 32px;
+  width: 32px;
+  border-radius: 32px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-transition: -webkit-transform 0.25s ease-out;
+  transition: -webkit-transform 0.25s ease-out;
+  transition: transform 0.25s ease-out;
+  transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+}
+
+.services .container-lg .service-card:hover:before {
+  -webkit-transform: scale(31);
+          transform: scale(31);
 }
 
 .services .container-lg .service-card h3 {
@@ -359,6 +390,16 @@ header .container .anchor-link {
   border-radius: 0.6rem;
   margin: 0.9rem 0;
   height: 18rem;
+  cursor: pointer;
+  -webkit-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+}
+
+.about-us .container-lg .about-card:hover {
+  -webkit-transform: translateY(-0.5rem);
+          transform: translateY(-0.5rem);
+  -webkit-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
 }
 
 .about-us .container-lg .about-card h3 {
@@ -401,7 +442,18 @@ header .container .anchor-link {
           box-shadow: rgba(149, 157, 165, 0.1) 0px 7px 26px;
   border-radius: 0.6rem;
   margin: 0.9rem 0;
-  height: 18rem;
+  height: 23.5rem;
+  cursor: pointer;
+}
+
+.our-approach .approach-card:hover {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+  border: 0.1rem solid #0CDC12;
+}
+
+.our-approach .approach-card img {
+  width: 4rem;
 }
 
 .our-approach .approach-card h5 {
@@ -413,8 +465,26 @@ header .container .anchor-link {
 }
 
 .our-approach .approach-card p {
-  font-size: 1.1em;
+  font-size: 1.08em;
   color: rgba(10, 10, 10, 0.75);
+}
+
+.our-team {
+  padding: 7rem 0;
+}
+
+.our-team h2 {
+  font-size: 2.5em;
+  font-weight: bolder;
+  color: #0A0A0A;
+  font-family: "GeneralSans";
+}
+
+.our-team p {
+  width: 60%;
+  margin: 1rem auto;
+  font-size: 1.2em;
+  color: #4F5163;
 }
 
 /**********************/
@@ -1539,12 +1609,22 @@ footer .all-rights-reserved span span {
   .our-approach .approach-card {
     padding: 2rem;
     border-radius: 0.6rem;
-    height: 24rem;
+    height: 33rem;
   }
   .our-approach .approach-card h5 {
     font-size: 1.4em;
   }
   .our-approach .approach-card p {
+    font-size: 1.1em;
+  }
+  .our-team {
+    padding: 5rem 0;
+  }
+  .our-team h2 {
+    font-size: 2em;
+  }
+  .our-team p {
+    width: 50%;
     font-size: 1.1em;
   }
   .card-table {
@@ -2377,12 +2457,22 @@ footer .all-rights-reserved span span {
   }
   .our-approach .approach-card {
     padding: 2rem;
-    height: 18rem;
+    height: 24rem;
   }
   .our-approach .approach-card h5 {
     font-size: 1.3em;
   }
   .our-approach .approach-card p {
+    font-size: 1em;
+  }
+  .our-team {
+    padding: 5rem 0;
+  }
+  .our-team h2 {
+    font-size: 2em;
+  }
+  .our-team p {
+    width: 90%;
     font-size: 1em;
   }
   .contact-page {
@@ -3244,12 +3334,22 @@ footer .all-rights-reserved span span {
   }
   .our-approach .approach-card {
     padding: 2rem;
-    height: 19rem;
+    height: 28rem;
   }
   .our-approach .approach-card h5 {
     font-size: 1.3em;
   }
   .our-approach .approach-card p {
+    font-size: 1em;
+  }
+  .our-team {
+    padding: 4rem 0;
+  }
+  .our-team h2 {
+    font-size: 1.5em;
+  }
+  .our-team p {
+    width: 93%;
     font-size: 1em;
   }
   .contact-page {
@@ -3831,12 +3931,22 @@ footer .all-rights-reserved span span {
     font-weight: bolder;
   }
   .our-approach .approach-card {
-    height: 18rem;
+    height: 24.5rem;
   }
   .our-approach .approach-card h5 {
     font-size: 1.3em;
   }
   .our-approach .approach-card p {
+    font-size: 1em;
+  }
+  .our-team {
+    padding: 3rem 0;
+  }
+  .our-team h2 {
+    font-size: 1.5em;
+  }
+  .our-team p {
+    width: 93%;
     font-size: 1em;
   }
   .contact-page {

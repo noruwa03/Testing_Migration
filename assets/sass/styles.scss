@@ -242,6 +242,44 @@ header {
       border-radius: 0.6rem;
       margin: 0.9rem 0;
 
+      display: block;
+      position: relative;
+
+      text-decoration: none;
+      z-index: 0;
+      overflow: hidden;
+      cursor: pointer;
+
+      &:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: -16px;
+        right: -16px;
+        background: $white;
+        height: 32px;
+        width: 32px;
+        border-radius: 32px;
+        transform: scale(1);
+        transform-origin: 50% 50%;
+        transition: transform 0.25s ease-out;
+      }
+
+      &:hover:before {
+        transform: scale(31);
+      }
+
+      // &:hover {
+      //   p {
+      //     transition: all 0.3s ease-out;
+      //     color: rgba(255, 255, 255, 0.8);
+      //   }
+      //   h3 {
+      //     transition: all 0.3s ease-out;
+      //     color: #ffffff;
+      //   }
+      // }
+
       h3 {
         font-size: 1.4em;
         font-weight: bolder;
@@ -289,6 +327,13 @@ header {
       border-radius: 0.6rem;
       margin: 0.9rem 0;
       height: 18rem;
+      cursor: pointer;
+      transition: 0.1s ease-in;
+
+      &:hover {
+        transform: translateY(-0.5rem);
+        transition: 0.1s ease-in;
+      }
 
       h3 {
         font-size: 1.4em;
@@ -330,9 +375,20 @@ header {
     background-color: $white;
     box-shadow: rgba(149, 157, 165, 0.1) 0px 7px 26px;
     border-radius: 0.6rem;
-
     margin: 0.9rem 0;
-    height: 18rem;
+    height: 23.5rem;
+
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.04);
+
+      border: 0.1rem solid $green;
+    }
+
+    img {
+      width: 4rem;
+    }
 
     h5 {
       font-size: 1.4em;
@@ -343,9 +399,27 @@ header {
     }
 
     p {
-      font-size: 1.1em;
+      font-size: 1.08em;
       color: rgba(10, 10, 10, 0.75);
     }
+  }
+}
+
+.our-team {
+  padding: 7rem 0;
+
+  h2 {
+    font-size: 2.5em;
+    font-weight: bolder;
+    color: $heading-color;
+    font-family: $generalSans;
+  }
+
+  p {
+    width: 60%;
+    margin: 1rem auto;
+    font-size: 1.2em;
+    color: $text-color;
   }
 }
 
