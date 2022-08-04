@@ -39,7 +39,8 @@
               <h5>Explore</h5>
               <a href="https://ecolabz.io/#services">What we do</a>
 
-              <a href="mailto:contact@ecolabz.io">Careers</a>
+              
+               <NuxtLink  to="https://jobs.ecolabz.io" target="_blank" rel="noopener">Careers</NuxtLink>
             </div>
             <div class="col-lg-4 col-sm-4 col-6 my-3 footer-anchor-link">
               <h5>About</h5>
