@@ -9,6 +9,7 @@ Table Of Contents:
 - Services
 - About Us
 - Our Approach
+- Our Team
 - Contact Page
 - Quote Table
 - Quote Detail Page
@@ -337,15 +338,15 @@ header .container .anchor-link {
           transform: scale(1);
   -webkit-transform-origin: 50% 50%;
           transform-origin: 50% 50%;
-  -webkit-transition: -webkit-transform 0.25s ease-out;
-  transition: -webkit-transform 0.25s ease-out;
-  transition: transform 0.25s ease-out;
-  transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  transition: -webkit-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
 }
 
 .services .container-lg .service-card:hover:before {
-  -webkit-transform: scale(31);
-          transform: scale(31);
+  -webkit-transform: scale(62);
+          transform: scale(62);
 }
 
 .services .container-lg .service-card h3 {
@@ -469,6 +470,9 @@ header .container .anchor-link {
   color: rgba(10, 10, 10, 0.75);
 }
 
+/**********************/
+/*      Our Team      */
+/**********************/
 .our-team {
   padding: 7rem 0;
 }
@@ -1123,7 +1127,6 @@ header .container .anchor-link {
   font-size: 1.2em;
 }
 
-/* FAQ */
 /**********************/
 /*     Quote Table    */
 /**********************/

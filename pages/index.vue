@@ -16,9 +16,10 @@
           </h1>
 
           <p>
-            Your trusted partner in building sustainable products for the
-            future. Be it blockchain development, AI, web apps, UI/UX design or
-            SaaS. We are on a mission to give your startup a headstart.
+            We build disruptive and groundbreaking digital products for the
+            future. From user interface and experience to blockchain development
+            and training, AI, data models, Our goal to give your startup a
+            headstart in building innovative products.
           </p>
 
           <div class="mt-5">
@@ -204,30 +205,6 @@
         </div>
       </div>
     </div>
-
-    <!-- End of About Us -->
-
-    <!-- Latest News -->
-    <!-- <div class="latest-news">
-      <h1 class="text-center">Latest news from us</h1>
-
-      <p class="text-center">
-        Stay up to date with happenings in the tech world
-      </p>
-
-      <div class="container-lg">
-        <div class="row align-items-center justify-content-between">
-          <div class="col-12 mt-sm-5 mt-3">
-            <img
-              src="@/assets/icons/cover-image.jpg"
-              class="img-fluid"
-              alt="Cover Image"
-            />
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!-- End of Latest News -->
 
     <!-- Our Approach -->
     <div id="our-approach" class="our-approach">

@@ -10,6 +10,7 @@ Table Of Contents:
 - Services
 - About Us
 - Our Approach
+- Our Team
 - Contact Page
 - Quote Table
 - Quote Detail Page
@@ -153,13 +154,6 @@ nav {
           color: $heading-color;
           cursor: pointer;
           font-family: $workSans;
-          // transition: 1s ease;
-
-          // &:hover {
-          //   text-decoration: none;
-          //   color: #ff5151;
-          //   transition: .3s ease;
-          // }
         }
       }
     }
@@ -262,23 +256,12 @@ header {
         border-radius: 32px;
         transform: scale(1);
         transform-origin: 50% 50%;
-        transition: transform 0.25s ease-out;
+        transition: transform 0.3s ease-out;
       }
 
       &:hover:before {
-        transform: scale(31);
+        transform: scale(62);
       }
-
-      // &:hover {
-      //   p {
-      //     transition: all 0.3s ease-out;
-      //     color: rgba(255, 255, 255, 0.8);
-      //   }
-      //   h3 {
-      //     transition: all 0.3s ease-out;
-      //     color: #ffffff;
-      //   }
-      // }
 
       h3 {
         font-size: 1.4em;
@@ -405,6 +388,9 @@ header {
   }
 }
 
+/**********************/
+/*      Our Team      */
+/**********************/
 .our-team {
   padding: 7rem 0;
 
@@ -603,7 +589,6 @@ header {
 
             .form-field {
               width: 47%;
-              // background-color: red;
 
               @include flexItem(column, space-between);
 
@@ -908,125 +893,6 @@ header {
     }
   }
 }
-
-/* FAQ */
-
-// .faq-section {
-//   padding: 5rem 0;
-
-//   .title {
-//     font-family: $workSans;
-//     font-weight: bolder;
-//   }
-
-//   .faq-card {
-//     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-//     border-radius: 0.5rem;
-
-//     .faq {
-//       .divider {
-//         width: 100%;
-//         height: 1px;
-//         background-color: #d9dbe9;
-//         margin: 0.5rem 0;
-//       }
-//       input {
-//         position: absolute;
-//         opacity: 0;
-//         z-index: -1;
-//       }
-
-//       // Layout
-//       .row {
-//         display: flex;
-
-//         .col {
-//           flex: 1;
-//         }
-//       }
-
-//       /* Accordion styles */
-//       .tabs {
-//         border-radius: 8px;
-//         overflow: hidden;
-//       }
-
-//       .tab {
-//         width: 100%;
-//         color: white;
-//         overflow: hidden;
-
-//         &-label {
-//           display: flex;
-//           justify-content: space-between;
-//           padding: 1em;
-//           background: $white;
-//           font-weight: normal;
-//           cursor: pointer;
-//           color: $black;
-//           font-weight: bold;
-//           font-family: $generalSans;
-
-//           /* Icon */
-//           // &:hover {
-//           //   background: darken($white, 10%);
-//           // }
-
-//           &::after {
-//             content: "\002B";
-//             width: 1em;
-//             height: 1em;
-//             text-align: center;
-//             transition: all 0.35s;
-//           }
-//         }
-
-//         &-content {
-//           max-height: 0;
-//           padding: 0 1em;
-//           color: #6f6c90;
-
-//           transition: all 0.35s;
-//           font-family: $dmSans;
-//         }
-
-//         &-close {
-//           display: flex;
-//           justify-content: flex-end;
-//           padding: 1em;
-//           font-size: 0.75em;
-//           background: $green;
-//           cursor: pointer;
-
-//           &:hover {
-//             background: darken($green, 10%);
-//           }
-//         }
-//       }
-
-//       // :checked
-//       input:checked {
-//         + .tab-label {
-//           color: $green;
-
-//           &::after {
-//             content: "\2212";
-//             width: 1em;
-//             height: 1em;
-//             text-align: center;
-//             transition: all 0.35s;
-//             color: $green;
-//           }
-//         }
-
-//         ~ .tab-content {
-//           max-height: 100vh;
-//           padding: 1em;
-//         }
-//       }
-//     }
-//   }
-// }
 
 /**********************/
 /*     Quote Table    */
