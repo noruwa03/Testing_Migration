@@ -26,11 +26,11 @@
 
         <ul class="nav-item-list">
           <li @click="removeSidebar" class="nav-item">
-            <a class="nav-link" href="https://ecolabz.io/#about-us">About</a>
+            <a class="nav-link"  @click="gotoAboutUs">About</a>
           </li>
 
           <li @click="removeSidebar" class="nav-item">
-            <a class="nav-link" href="https://ecolabz.io/#services">Services</a>
+            <a class="nav-link" @click="gotoServices">Services</a>
           </li>
           <li @click="comingSoon" class="nav-item">
             <NuxtLink class="nav-link" to="">Portfolio</NuxtLink>
@@ -84,6 +84,36 @@ const removeSidebar = () => {
   nav.classList.toggle("active");
   navItem.classList.toggle("active");
   navIcon2.classList.toggle("open");
+};
+
+const router = useRouter();
+
+const goToAbout = () => {
+  setTimeout(() => {
+    const activeSect = document.getElementById("about-us");
+    activeSect.scrollIntoView({
+      behavior: "smooth",
+    });
+  }, 100);
+};
+
+const gotoAboutUs = () => {
+  router.push("/");
+  goToAbout();
+};
+
+const goToServices = () => {
+  setTimeout(() => {
+    const activeSect = document.getElementById("services");
+    activeSect.scrollIntoView({
+      behavior: "smooth",
+    });
+  }, 100);
+};
+
+const gotoServices = () => {
+  router.push("/");
+  goToServices();
 };
 </script>
 

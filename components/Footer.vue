@@ -37,18 +37,21 @@
           >
             <div class="col-lg-4 col-sm-4 col-6 my-3 footer-anchor-link">
               <h5>Explore</h5>
-              <a href="https://ecolabz.io/#services">What we do</a>
+              <a @click="gotoServices">What we do</a>
 
-              
-               <NuxtLink  to="https://jobs.ecolabz.io" target="_blank" rel="noopener">Careers</NuxtLink>
+              <NuxtLink
+                to="https://jobs.ecolabz.io"
+                target="_blank"
+                rel="noopener"
+                >Careers</NuxtLink
+              >
             </div>
             <div class="col-lg-4 col-sm-4 col-6 my-3 footer-anchor-link">
               <h5>About</h5>
-              <a href="https://ecolabz.io/#about-us">About Us</a>
+              <a @click="gotoAboutUs">About Us</a>
 
               <NuxtLink class="" to="/contact">Get A Quote</NuxtLink>
             </div>
-            
           </div>
         </div>
       </div>
@@ -62,12 +65,37 @@
   </footer>
 </template>
 
-<script>
-export default {
-  setup() {
-    const footerDate = new Date().getFullYear();
-    return { footerDate };
-  },
+<script setup>
+const footerDate = new Date().getFullYear();
+
+const router = useRouter();
+
+const goToAbout = () => {
+  setTimeout(() => {
+    const activeSect = document.getElementById("about-us");
+    activeSect.scrollIntoView({
+      behavior: "smooth",
+    });
+  }, 100);
+};
+
+const gotoAboutUs = () => {
+  router.push("/");
+  goToAbout();
+};
+
+const goToServices = () => {
+  setTimeout(() => {
+    const activeSect = document.getElementById("services");
+    activeSect.scrollIntoView({
+      behavior: "smooth",
+    });
+  }, 100);
+};
+
+const gotoServices = () => {
+  router.push("/");
+  goToServices();
 };
 </script>
 

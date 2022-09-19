@@ -1511,6 +1511,7 @@ footer .footer-anchor-link a {
   display: block;
   color: #e5e5e5;
   margin: 1rem 0;
+  cursor: pointer;
 }
 
 footer .footer-anchor-link a:hover {
