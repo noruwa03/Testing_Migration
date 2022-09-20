@@ -37,20 +37,21 @@
           >
             <div class="col-lg-4 col-sm-4 col-6 my-3 footer-anchor-link">
               <h5>Explore</h5>
-              <a @click="gotoServices">What we do</a>
+              <a @click="gotoServices" class="link">What we do</a>
 
               <NuxtLink
                 to="https://jobs.ecolabz.io"
                 target="_blank"
                 rel="noopener"
+                class="link"
                 >Careers</NuxtLink
               >
             </div>
             <div class="col-lg-4 col-sm-4 col-6 my-3 footer-anchor-link">
               <h5>About</h5>
-              <a @click="gotoAboutUs">About Us</a>
+              <a @click="gotoAboutUs" class="link">About Us</a>
 
-              <NuxtLink class="" to="/contact">Get A Quote</NuxtLink>
+              <NuxtLink class="link" to="/contact">Get A Quote</NuxtLink>
             </div>
           </div>
         </div>
